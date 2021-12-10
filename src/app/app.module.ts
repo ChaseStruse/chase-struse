@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { TaskbarComponent } from './components/taskbar/taskbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import { ProfileComponent } from './components/profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TaskbarComponent
+    TaskbarComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
