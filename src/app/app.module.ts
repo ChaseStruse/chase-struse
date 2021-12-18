@@ -9,12 +9,15 @@ import {MatButtonModule} from '@angular/material/button';
 import { ProfileComponent } from './components/profile/profile.component';
 import {MatCardModule} from '@angular/material/card';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ExperienceComponent } from './components/experience/experience.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskbarComponent,
-    ProfileComponent
+    ProfileComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +25,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

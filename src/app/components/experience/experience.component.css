@@ -1,0 +1,25 @@
+.experience { 
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width: 35%;
+}
+.experience mat-card{
+	background-color: whitesmoke;
+}
+mat-card-title{
+	color: black;
+	text-align: center;
+}
+mat-card-subtitle{
+	color: black;
+	text-align: left;
+}
+
+mat-progress-bar{
+	margin-bottom: 3%;
+}
+
+.card-wrapper {
+	margin-top: 20%;
+}
